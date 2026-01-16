@@ -1,0 +1,7 @@
+#root {
+  height: 100vh;
+}
+@font-face{
+  font-family : font1;
+  src: url('../public/fonts/Roboto_Condensed-Black.ttf')
+}
