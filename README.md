@@ -15,25 +15,29 @@ It fetches weather data asynchronously via **async/await** from the **OpenWeathe
 
 ## 📦 Installation & Run
 
-1. Clone the project:
+1. Clone the project
    ```bash
-   git clone [repo](https://github.com/ramamalali/weatherproject.git)
+   git clone [repo] (https://github.com/ramamalali/weatherproject.git)
    cd weatherproject
-```
-2. Install dependencies:
+   ```
+3. Install dependencies:
    ```bash
    npm install
-```
-3. Run the app:
+   ```
+4. Run the app:
    ```bash
    npm run dev
-```
+   ```
+
 ---
+
 ## OR
 [codesandbox](https://codesandbox.io/p/github/ramamalali/weatherproject)
+
 ---
 
 ## 🛠️ Project Structure:
+
 ```
 src/ 
  ├── app/
@@ -46,4 +50,5 @@ src/
  ├──  weather.css                   
  └── main.jsx                      
 ```
+
 ## 🧑‍💻 Note: This application is a training project on Redux.
