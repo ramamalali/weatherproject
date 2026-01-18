@@ -17,7 +17,7 @@ It fetches weather data asynchronously via **async/await** from the **OpenWeathe
 
 1. Clone the project:
    ```bash
-   git clone https://github.com/USERNAME/weatherproject.git
+   git clone [repo](https://github.com/ramamalali/weatherproject.git)
    cd weatherproject
 ```
 2. Install dependencies:
@@ -30,7 +30,7 @@ It fetches weather data asynchronously via **async/await** from the **OpenWeathe
 ```
 ---
 ## OR
-[codesandbox]()
+[codesandbox](https://codesandbox.io/p/github/ramamalali/weatherproject)
 ---
 
 ## 🛠️ Project Structure:
