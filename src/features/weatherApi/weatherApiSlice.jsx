@@ -5,7 +5,7 @@ export const fetchWeather = createAsyncThunk(
   "weatherApi/fetchWeather",
   async () => {
     const response = await axios.get(
-      "https://api.openweathermap.org/data/2.5/weather?lat=24.76&lon=46.56&appid=bec701ddc0c224abd8f38ba9206e99f9&units=metric"
+     `https://api.openweathermap.org/data/2.5/weather?lat=24.76&lon=46.56&appid=${import.meta.env.VITE_WEATHER_API_KEY}&units=metric`
     );
 
     const data = {
