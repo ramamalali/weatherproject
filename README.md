@@ -1,8 +1,49 @@
-# React + Vite
+# 🌦️ Weather App (Redux Toolkit + OpenWeatherMap)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather application built with **React + Vite** using **Redux Toolkit** for state management.  
+It fetches weather data asynchronously via **async/await** from the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Uses **Redux Toolkit** with `createSlice` and `createAsyncThunk`.
+- Fetches weather data (temperature, min/max, description, icon, city name).
+- Displays dynamic weather icons from OpenWeatherMap.
+- Clean and scalable project structure.
+
+---
+
+## 📦 Installation & Run
+
+1. Clone the project:
+   ```bash
+   git clone https://github.com/USERNAME/weatherproject.git
+   cd weatherproject
+```
+2. Install dependencies:
+   ```bash
+   npm install
+```
+3. Run the app:
+   ```bash
+   npm run dev
+```
+---
+## OR
+[codesandbox]()
+---
+
+## 🛠️ Project Structure:
+```
+src/ 
+ ├── app/
+ │    └──  store.js  
+ ├── features/
+ │    └── weatherApi/
+ │         └── weatherApiSlice.js               
+ ├── App.jsx                        
+ ├──  weather.jsx                    
+ ├──  weather.css                   
+ └── main.jsx                      
+```
+## 🧑‍💻 Note: This application is a training project on Redux.
